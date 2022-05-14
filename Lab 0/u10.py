@@ -1,0 +1,10 @@
+import math
+a = int(input('Введите целое число a: '))
+b = int(input('Введите целое число b: '))
+print('Сумма: ' + str(a + b))
+print('Разница: ' + str(abs(a - b)))
+print('Произведение: ' + str(a * b))
+print('Частное от деления a на b: ' + str(a / b))
+print('Остаток от деления a на b: ' + str(a % b))
+print('Десятичный логарифм числа a: ' + str(math.log(a, 10)))
+print('Результат возведения a в степень b: ' +  str(a**b))
